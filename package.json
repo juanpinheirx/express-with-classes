@@ -1,7 +1,4 @@
 {
-  "dependencies": {
-    "editorconfig": "^2.0.0"
-  },
   "name": "library-api",
   "version": "1.0.0",
   "description": "",
