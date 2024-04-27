@@ -1,7 +1,11 @@
 {
   "name": "library-api",
-  "main": "src/server.js",
   "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
   "scripts": {
     "start": "ts-node src/server.ts",
     "dev": "tsnd --watch \"./src/**\" ./src/server.ts",
@@ -45,5 +49,7 @@
     "mysql2": "2.3.0",
     "sequelize": "6.31.0",
     "typescript": "4.4.4"
-  }
+  },
+  "author": "Trybe. All rights reserved.",
+  "license": "ISC"
 }
